@@ -1,0 +1,37 @@
+{
+  "name": "casino-games",
+  "version": "1.0.0",
+  "description": "A collection of casino games.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkline1205/casino-games.git"
+  },
+  "author": "John Kline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtkline1205/casino-games/issues"
+  },
+  "homepage": "https://github.com/jtkline1205/casino-games#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.0.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

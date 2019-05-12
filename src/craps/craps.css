@@ -1,0 +1,10 @@
+.gameContainer {
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+span {
+    padding: 3px;
+}
