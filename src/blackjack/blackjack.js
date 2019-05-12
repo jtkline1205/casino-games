@@ -16,7 +16,8 @@ export default class Craps extends React.Component {
     render() {
         return <div className={style.gameContainer}>
             <h5>Blackjack</h5>
-            {this.state.message}
+            {this.state.message} <br/>
+            Dealer stands on 17 <br/>
             <br/>
         </div>
     }
